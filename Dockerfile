@@ -4,4 +4,4 @@ FROM joyqi/typecho:nightly-php7.4-apache
 #ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 COPY ./usr /usr/src/typecho/usr/
 COPY ./file-upload.php /usr/src/typecho/usr/
-run mv /usr/src/typecho/usr/file-upload.php /usr/src/typecho/admin/
+#run mv /usr/src/typecho/usr/file-upload.php /usr/src/typecho/admin/
